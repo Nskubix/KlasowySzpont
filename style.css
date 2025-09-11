@@ -50,16 +50,29 @@ body{
     font-weight: 500;
     font-style: normal;
     line-height: 1;
+    background-color: aliceblue;
 }
+
+a:link{color:inherit; text-decoration: inherit;}
+a:active{color:inherit; text-decoration: inherit;}
+a:visited{color:inherit; text-decoration: inherit;}
+a:hover{color:inherit; text-decoration: inherit;}
+
 
 
 
 #header1{
-    border-radius: 0px;
+    border-radius: 5px;
     text-align: center;
+    background: #178578;
+    background: linear-gradient(90deg,rgba(23, 133, 120, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(83, 237, 198, 1) 100%);
+    padding: 1.5rem;
+    font-size: 3rem;
+    color: #111;
 
 
 }
+
 
 .fundamentalsheader{
     display: flex;
@@ -80,4 +93,24 @@ body{
     justify-content: center;
     flex-direction: column;
 
+}
+
+.fundbox{
+    width: 100%;
+    min-height: 300px;
+    display: flex;
+    gap: 4rem;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.biniu{
+    width: 100%;
+    min-height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
