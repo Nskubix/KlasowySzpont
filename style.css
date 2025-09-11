@@ -27,9 +27,9 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
-ol, ul {
+/* ol, ul {
 	list-style: none;
-}
+} */
 blockquote, q {
 	quotes: none;
 }
@@ -113,4 +113,19 @@ a:hover{color:inherit; text-decoration: inherit;}
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    margin: 2rem;
+}
+
+.skalica{
+    color: black;
+    width: 100%;
+    min-height: 250px;
+    display: flex;
+    justify-content: center;
+}
+
+
+#linkbiniu{
+    text-decoration: underline;
 }
